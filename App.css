@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+  background-color: black; /* Sets the background to black */
+  color: white; /* Ensures the text remains visible */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between; /* Ensures that left-menu and right-menu are on opposite sides */
+  align-items: center;
+}
+
+.left-menu, .right-menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.left-menu li {
+  margin-right: 15px; /* Spaces the items on the left side */
+}
+
+.right-menu {
+  margin-left: auto; /* Ensures the Login and Register are pushed to the right */
+}
+
+.right-menu li {
+  margin-left: 15px; /* Spaces the items on the right side */
+}
+
+.left-menu a, .right-menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.left-menu a:hover, .right-menu a:hover {
+  text-decoration: underline;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.product {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  width: 200px;
+  text-align: left;
+}
+
+.product h3 {
+  color: #333;
+}
+
+.product p {
+  color: #666;
+}
+
+button {
+  background-color: #ffcc00;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  color: black;
+}
+
+button:hover {
+  background-color: #ffaa00;
+}
+
+footer {
+  margin-top: auto;
+  padding: 10px;
+  background-color: #282c34;
+  color: white;
+}
+
+.vision-box {
+  background-color: #fff;
+  color: black;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 500px;
+  text-align: center;
+}
